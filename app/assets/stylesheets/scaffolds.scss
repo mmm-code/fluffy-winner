@@ -1,14 +1,21 @@
+@import "bootstrap";
+ @import url('https://fonts.googleapis.com/css?family=Acme|Exo|Pacifico&display=swap');
+
+h1 {
+  font-family: 'Acme', sans-serif;
+  font-size: 26px;
+}
 body {
   background-color: #fff;
   color: #333;
   margin: 33px;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: 'Exo', sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: 'Exo', sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
