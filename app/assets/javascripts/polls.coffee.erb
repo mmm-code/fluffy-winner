@@ -34,8 +34,8 @@ $ ->
     $('#add_poll')[0].reset()
     return
 
-  pusher = new Pusher('<%= ENV["PUSHER_KEY"] %>',
-    cluster: '<%= ENV["PUSHER_CLUSTER"] %>'
+  pusher = new Pusher('<%= ENV["pusher_key"] %>',
+    cluster: '<%= ENV["pusher_cluster"] %>'
     encrypted: true)
   channel = pusher.subscribe('poll')
   channel.bind 'new', (data) ->
