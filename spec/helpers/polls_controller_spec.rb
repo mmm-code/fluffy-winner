@@ -19,8 +19,7 @@ RSpec.describe PollsController, type: :controller do
     end
     
     it "should properly deal with validation errors" do
-      params.require(:poll).permit(:name, :laptop)
-      b
+      
     end
   end
 end

@@ -17,14 +17,34 @@
  @import "bootstrap";
  @import url('https://fonts.googleapis.com/css?family=Acme|Exo|Pacifico&display=swap');
 
- body {
-  font-family: 'Exo', sans-serif;
- }
+.clear {
+  clear: both;
+}
+
+
 
 h1 {
   font-family: 'Acme', sans-serif;
-  font-size: 26px;
+  font-size: 60px;
 }
+
+
+
+p {
+  font-family: 'Pacifico', cursive;
+  font-size: 16px;
+}
+
+
+  h2 {
+    font-family: 'Exo', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px -7px 0;
+    color: #fff;
+  }
  .navbar-brand {
    color: #FFF !important;
 
