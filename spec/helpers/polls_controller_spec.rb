@@ -17,9 +17,17 @@ RSpec.describe PollsController, type: :controller do
     it "should successfully create a new poll in our database" do
       expect(response).to have_http_status(:success)
     end
-    
-    it "should properly deal with validation errors" do
-      
+  end
+  
+  describe "polls#update" do
+    it "should successfully update a new poll in our database" do
+      expect(response).to have_http_status(:success)
+    end
+  end
+  
+   describe "polls#destroy" do
+    it "should successfully update a new poll in our database" do
+      expect(response).to have_http_status(:success)
     end
   end
 end
